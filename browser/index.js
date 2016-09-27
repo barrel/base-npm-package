@@ -1,0 +1,1 @@
+//Compiled ES5 file complete with UMD wrapper
