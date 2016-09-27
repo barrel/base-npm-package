@@ -2,7 +2,7 @@
   "name": "{{add npm package name}}",
   "version": "0.0.1",
   "description": "{{add npm package description}}",
-  "author": "barrel",
+  "author": "{{add the author's Github handle}}",
   "main": "./src/index.js",
   "scripts": {
     "browser": "mkdir -p browser && browserify src/index.js --standalone src/index.js > browser/index.js",
@@ -41,7 +41,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "{{add url here}}"
+    "url": "{{add url}}"
   },
-  "license": "MIT"
+  "license": "{{add license}}"
 }
