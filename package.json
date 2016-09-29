@@ -10,13 +10,12 @@
     "test": "ava test/test.js -v",
     "size": "bundle-size ./browser/index.js"
   },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "browserify": {
-    "debug": true,
-    "cache": {},
-    "packageCache": {},
-    "extension": [
-      "js"
-    ],
     "transform": [
       "babelify"
     ]
