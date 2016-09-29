@@ -1,6 +1,6 @@
 import test from 'ava'
 import src from './../browser/index.js'
 
-test('prefixRAF', t => {
+test('dummyTest', t => {
   t.true(true, 'Dummy test')
 });
